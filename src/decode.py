@@ -12,8 +12,6 @@ def decode_string(string):
     class helperClass:
         '''
         recursive algorithm that finds all of the possible decodings of the dtmf string
-
-        TODO: this broke
         '''
         res = []
         def helper(self,currNum,currS):
@@ -59,8 +57,6 @@ def decode_audio(fname):
     decodes a audio file of dtmf into plaintext
 
     we take the stft of the audio and find the frequencies of the dtmf signal, decoding each frequency block into its corresponding button presses
-
-    TODO: this broke too
     '''
 
     sample_rate, samples = wavfile.read(fname)

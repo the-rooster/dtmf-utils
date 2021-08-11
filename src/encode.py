@@ -75,6 +75,6 @@ if __name__ == "__main__":
     sepSecs = 0.1
     amp = 20000
 
-    waves = encode_string(frate,int(frate*secsPerTone),"meet me at elvis chapel",int(frate*sepSecs))
+    waves = encode_string(frate,int(frate*secsPerTone),"test string",int(frate*sepSecs))
 
     gen_wav("test.wav",waves,frate,amp,len(waves))
