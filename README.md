@@ -15,6 +15,8 @@ TODO:
      being valid english.
      
   -Create a single commandline tool for both encoding and decoding
+  
+  -Right now the frequency blocks must be seperated by a silence. This should be fixed.
 
 More information on DTMF:
 
