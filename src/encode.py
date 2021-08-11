@@ -71,10 +71,10 @@ def encode_string(frate,nframes,string,sep):
 
 if __name__ == "__main__":
     frate = 4100
-    secsPerTone = 0.52
-    sepSecs = 0.75
+    secsPerTone = 0.2
+    sepSecs = 0.1
     amp = 20000
 
-    waves = encode_string(frate,int(frate*secsPerTone),"andrew made this program woohoo",int(frate*sepSecs))
+    waves = encode_string(frate,int(frate*secsPerTone),"meet me at elvis chapel",int(frate*sepSecs))
 
     gen_wav("test.wav",waves,frate,amp,len(waves))

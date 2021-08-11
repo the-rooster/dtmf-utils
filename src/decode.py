@@ -94,7 +94,7 @@ def decode_audio(fname):
         #     freqs = f[np.where(col > 0.8)]
         # else:
         #     freqs = f[np.where(col > 0.1)]
-        freqs = f[np.where(col > 0.01)]
+        freqs = f[np.where(col > 0.02)]
         #print(freqs)
 
         if freqs.shape[0] > 0 and not in_signal:
