@@ -18,16 +18,25 @@ More information on DTMF:
 
 Number keys to letters:
 
-0	none (on some telephones, "OPERATOR" or "OPER")  (used often for space)\n
-1	none (on some older telephones, QZ)\n
-2	ABC\n
-3	DEF\n
-4	GHI\n
-5	JKL\n
-6	MNO (on some older telephones, MN)\n
-7	PQRS (on older telephones, PRS)\n
-8	TUV\n
-9	WXYZ (on older telephones, WXY)\n
+0	none (on some telephones, "OPERATOR" or "OPER")  (used often for space)
+
+1	none (on some older telephones, QZ)
+
+2	ABC
+
+3	DEF
+
+4	GHI
+
+5	JKL
+
+6	MNO (on some older telephones, MN)
+
+7	PQRS (on older telephones, PRS)
+
+8	TUV
+
+9	WXYZ (on older telephones, WXY)
 
 tones:
 
