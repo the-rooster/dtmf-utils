@@ -8,16 +8,6 @@ recursively obtaining all of the possible decodings.
 Inspired by CTF challenges, and mostly made for fun as it is a unique challenge between algorithms and signal processing.
 
 
-TODO:
-  -Determine a correctness likelihood for each possible decoding and display them ranked
-  
-   -Either with some kind of entropy calculation like what can be seen on cyberchef, or something more exotic maybe, such as deep learning to determine likelihood of a decoding
-     being valid english.
-     
-  -Create a single commandline tool for both encoding and decoding
-  
-  -Right now the frequency blocks must be seperated by a silence. This should be fixed.
-
 More information on DTMF:
 
 Number keys to letters:
